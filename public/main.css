@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+body {
+  background-color: #232323;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer {
+			display: flex;
+			align-items: center;
+			padding: 20px;
+			width: 100%;
+			text-align: center;
+			
+		}
+.footer p {
+			font-weight: 700;
+			font-size: 14px;
+			margin: auto;
+			color: #eee;
+			font-family: 'Poppins', sans-serif;
+		}
