@@ -1,13 +1,13 @@
 // $ npm install firebase-admin --save
 var admin = require("firebase-admin");
-// var serviceAccount = require("../restapp-87097-firebase-adminsdk-okpqp-f2a960d3b3.json");
+ var serviceAccount = require("../firebase.json");
 
-// admin.initializeApp({
-//   credential: admin.credential.cert(serviceAccount),
-//   databaseURL: "https://restapp-87097-default-rtdb.firebaseio.com"
-// });
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount),
+  databaseURL: "https://restapp-87097-default-rtdb.firebaseio.com"
+});
 
-admin.initializeApp(functions.config().firebase);
+// admin.initializeApp(functions.config().firebase);
 
 const db = admin.database();
 
