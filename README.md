@@ -7,3 +7,7 @@ View screenshots folder to know how it looks.
 Deployed on firebase hosting.
 
 Developed in Nodejs and firebase realtime database.
+
+# Preview 
+
+![](2.png)
